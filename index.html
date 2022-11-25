@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animatsiya</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Devoloper Uz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="./images/p-72-72.png">
+    <link rel="apple-touch-icon" href="./images/p-96-96.png">
+    <link rel="apple-touch-icon" href="./images/p-144-144.png">
+    <link rel="apple-touch-icon" href="./images/p-192-192.png">
+    <link rel="apple-touch-icon" href="./images/p-512-512.png">
+    <meta name="theme-color" content="#0D1117">
 </head>
 <body>
-   <div class="container">
-    <span></span>
-    <span>
+    <h1>Devolper:Behruz Eshpo'latov</h1>
+    <div class="main">
+        <div class="card">
+            <div class="colorSection">
+                <input type="color" value="#e0ffee" id="inputColor">
+                <input type="text" value="#e0ffee" id="inputText" disabled>
+            </div>
+            <div class="btn">
+                <button id="getHex" onclick="colorFunc()">Rang Kodi</button>
+                <button id="copyHex" onclick="copy()">Kodni saqlash</button>
+            </div>
+            <p id="demo">Saqlandi </p>
+        </div>
+    </div>
+    <script src="./Js/script.js"></script>
 
-    </span>
-    <span></span>
-   <p>shaxriyor</p> 
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span>Foydali.uz</span>
-   </div> 
-   
-   <audio src="s.mp3" autoplay preload="auto" controls loop></audio>
 </body>
 </html>
